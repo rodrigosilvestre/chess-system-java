@@ -1,9 +1,7 @@
 package boardgame;
 
 public class Position {
-public static void main(String[] args) {
-	
-}
+
 	private int row;
 	private int column;
 
@@ -31,8 +29,7 @@ public static void main(String[] args) {
 
 	@Override
 	public String toString() {
-		return "Position value is row=" + row + ", column=" + column;
+		return "row=" + row + ", column=" + column;
 	}
-
 
 }
